@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GY/TVmRiiAEkloNzCcteZ1kWezR1DloekSBXmSuJcus=",
+  "Source": "restapi-rocket-elevators",
+  "BasePath": "_content/restapi-rocket-elevators",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
