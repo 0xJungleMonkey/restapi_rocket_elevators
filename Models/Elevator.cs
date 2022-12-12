@@ -11,14 +11,14 @@ namespace restapi_rocket_elevators.Models
         public string? Model { get; set; }
         public string? Type { get; set; }
         public string? Status { get; set; }
-        public DateOnly? CommisionDate { get; set; }
-        public DateOnly? LastInspectionDate { get; set; }
+        public DateTime CommisionDate { get; set; }
+        public DateTime LastInspectionDate { get; set; }
         public string? InspectionCert { get; set; }
         public string? Information { get; set; }
         public string? Notes { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
-        public virtual Column? Column { get; set; }
+        // public virtual Column? Column { get; set; }
     }
 }

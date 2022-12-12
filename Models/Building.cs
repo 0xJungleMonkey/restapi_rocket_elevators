@@ -24,7 +24,7 @@ namespace restapi_rocket_elevators.Models
         public DateTime UpdatedAt { get; set; }
 
         public virtual Address? Address { get; set; }
-        public virtual Customer? Customer { get; set; }
+        // public virtual Customer? Customer { get; set; }
         public virtual ICollection<Battery> Batteries { get; set; }
         public virtual ICollection<BuildingDetail> BuildingDetails { get; set; }
     }

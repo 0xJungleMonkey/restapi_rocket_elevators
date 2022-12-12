@@ -20,7 +20,7 @@ namespace restapi_rocket_elevators.Models
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
-        public virtual Battery? Battery { get; set; }
+        // public virtual Battery? Battery { get; set; }
         public virtual ICollection<Elevator> Elevators { get; set; }
     }
 }

@@ -476,3 +476,8 @@
 /Users/xinqi/Documents/week10/restapi_rocket_elevators/obj/Debug/net6.0/restapi-rocket-elevators.pdb
 /Users/xinqi/Documents/week10/restapi_rocket_elevators/obj/Debug/net6.0/restapi-rocket-elevators.genruntimeconfig.cache
 /Users/xinqi/Documents/week10/restapi_rocket_elevators/obj/Debug/net6.0/ref/restapi-rocket-elevators.dll
+/Users/xinqi/Documents/week10/restapi_rocket_elevators/bin/Debug/net6.0/System.Web.Cors.dll
+/Users/xinqi/Documents/week10/restapi_rocket_elevators/bin/Debug/net6.0/System.Net.Http.Formatting.dll
+/Users/xinqi/Documents/week10/restapi_rocket_elevators/bin/Debug/net6.0/System.Web.Http.dll
+/Users/xinqi/Documents/week10/restapi_rocket_elevators/bin/Debug/net6.0/System.Web.Http.Cors.dll
+/Users/xinqi/Documents/week10/restapi_rocket_elevators/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll

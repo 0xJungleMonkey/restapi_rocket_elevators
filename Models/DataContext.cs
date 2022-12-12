@@ -301,10 +301,10 @@ namespace restapi_rocket_elevators.Models
                     .HasColumnType("datetime")
                     .HasColumnName("updated_at");
 
-                entity.HasOne(d => d.Building)
-                    .WithMany(p => p.Batteries)
-                    .HasForeignKey(d => d.BuildingId)
-                    .HasConstraintName("fk_rails_fc40470545");
+                // entity.HasOne(d => d.Building)
+                //     .WithMany(p => p.Batteries)
+                //     .HasForeignKey(d => d.BuildingId)
+                //     .HasConstraintName("fk_rails_fc40470545");
 
                 entity.HasOne(d => d.Employee)
                     .WithMany(p => p.Batteries)
@@ -512,10 +512,10 @@ namespace restapi_rocket_elevators.Models
                     .HasForeignKey(d => d.AddressId)
                     .HasConstraintName("fk_rails_6dc7a885ab");
 
-                entity.HasOne(d => d.Customer)
-                    .WithMany(p => p.Buildings)
-                    .HasForeignKey(d => d.CustomerId)
-                    .HasConstraintName("fk_rails_c29cbe7fb8");
+                // entity.HasOne(d => d.Customer)
+                //     .WithMany(p => p.Buildings)
+                //     .HasForeignKey(d => d.CustomerId)
+                //     .HasConstraintName("fk_rails_c29cbe7fb8");
             });
 
             modelBuilder.Entity<BuildingDetail>(entity =>
@@ -572,10 +572,10 @@ namespace restapi_rocket_elevators.Models
                     .HasColumnType("datetime")
                     .HasColumnName("updated_at");
 
-                entity.HasOne(d => d.Battery)
-                    .WithMany(p => p.Columns)
-                    .HasForeignKey(d => d.BatteryId)
-                    .HasConstraintName("fk_rails_021eb14ac4");
+                // entity.HasOne(d => d.Battery)
+                //     .WithMany(p => p.Columns)
+                //     .HasForeignKey(d => d.BatteryId)
+                //     .HasConstraintName("fk_rails_021eb14ac4");
             });
 
             modelBuilder.Entity<Customer>(entity =>
@@ -669,10 +669,10 @@ namespace restapi_rocket_elevators.Models
                     .HasColumnType("datetime")
                     .HasColumnName("updated_at");
 
-                entity.HasOne(d => d.Column)
-                    .WithMany(p => p.Elevators)
-                    .HasForeignKey(d => d.ColumnId)
-                    .HasConstraintName("fk_rails_69442d7bc2");
+                // entity.HasOne(d => d.Column)
+                //     .WithMany(p => p.Elevators)
+                //     .HasForeignKey(d => d.ColumnId)
+                //     .HasConstraintName("fk_rails_69442d7bc2");
             });
 
             modelBuilder.Entity<Employee>(entity =>
